@@ -1,11 +1,12 @@
 %Nicholas Archon, nga425
 %COE 347 - Introduction to Computational Fluid Dynamics
 %OF4 - Determines Polytropic Efficiency
+%Formulas taken from Rocket Propulsion Elements, 9th, Sutton & Biblarz.
 clear;clc;close all;
 
 gamma = 1.4; 
 T01 = 1; 
-ve = 1.6892;
+ve = 1.65;
 PeP01 = 0.16; 
 cp = 3.5; 
 n_pe = polytropicEff(gamma,ve,cp,T01,PeP01)
