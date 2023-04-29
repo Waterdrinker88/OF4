@@ -6,7 +6,7 @@ clear;clc;close all;
 
 gamma = 1.4; 
 T01 = 1; 
-ve = 1.65;
+ve = 0.9315;
 PeP01 = 0.16; 
 cp = 3.5; 
 n_n = nozzleEff(ve,cp,T01,PeP01,gamma)
