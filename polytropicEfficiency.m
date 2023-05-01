@@ -6,8 +6,8 @@ clear;clc;close all;
 
 gamma = 1.4; 
 T01 = 1; 
-ve = 0.9315;
-PeP01 = 0.16; 
+ve = 0.3833;
+PeP01 = 0.75; 
 cp = 3.5; 
 n_pe = polytropicEff(gamma,ve,cp,T01,PeP01)
 
